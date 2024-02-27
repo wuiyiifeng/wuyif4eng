@@ -1,0 +1,6 @@
+    public String getEmail() { 
+            return (String)fInfo.get("email"); 
+    } 
+    public void setEmail(String param1) { 
+        if (param1 != null) 
+            fInfo.put("email", param1); 
