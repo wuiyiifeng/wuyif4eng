@@ -1,0 +1,5 @@
+            return (Date)fInfo.get("createDate"); 
+    } 
+    public void setCreateDate(Date param1) { 
+        if (param1 != null) 
+            fInfo.put("createDate", param1); 
