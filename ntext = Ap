@@ -1,0 +1,3 @@
+ 
+  // Attempt to authenticate using the credentials 
+  IApiContext apiContext = ApiCont
