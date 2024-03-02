@@ -1,0 +1,8 @@
+                        pygame.mixer.music.unpause()
+                        pygame.mixer.unpause()
+                        paused_image = pause_pressed_image
+            elif event.type == MOUSEMOTION:
+                if paused_rect.collidepoint(event.pos):
+                    if paused:
+                        paused_image = resume_pressed_image
+                    else:
