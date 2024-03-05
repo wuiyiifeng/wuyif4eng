@@ -1,0 +1,4 @@
+        setCursor(Toolkit.getDefaultToolkit().createCustomCursor(
+                ResourceManager.loadImage("cur.png"), new Point(0, 0), "cur"));
+        window = getWindow();
+        NullRepaintManager.install();
