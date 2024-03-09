@@ -1,0 +1,4 @@
+					DebitMoney = getch();
+				}while(	DebitMoney!='1' && DebitMoney!='2' && DebitMoney!='3' \
+				 && DebitMoney!='4' && DebitMoney!='5' );
+				switch(DebitMoney)
