@@ -1,0 +1,6 @@
+t.down()
+t.color("brown")
+t.pensize(32)
+t.forward(60)
+tree(100, t)
+myWin.exitonclick()
