@@ -1,0 +1,4 @@
+public class AdminServiceImpl implements AdminService {
+ private ArrayList<Admin> adminList = new ArrayList<Admin>();
+ //
+ private static final AdminServiceImpl adminSeriver = new AdminServiceImpl();
